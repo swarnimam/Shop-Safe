@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mapbox.storefinder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:5:5-78
+11-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:6:5-78
+12-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.firebase:firebase-database:16.0.4] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\7610431d7b3d90d2ebeb0810ccd9e6bc\firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+13-->[com.google.firebase:firebase-database:16.0.4] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\7610431d7b3d90d2ebeb0810ccd9e6bc\firebase-database-16.0.4\AndroidManifest.xml:23:22-64
+14
+15    <uses-feature
+15-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.1.0] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\e02915c7757667d0085fcdb66c9a7d1f\mapbox-android-sdk-8.1.0\AndroidManifest.xml:9:5-11:35
+16        android:glEsVersion="0x00020000"
+16-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.1.0] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\e02915c7757667d0085fcdb66c9a7d1f\mapbox-android-sdk-8.1.0\AndroidManifest.xml:10:9-41
+17        android:required="true" />
+17-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.1.0] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\e02915c7757667d0085fcdb66c9a7d1f\mapbox-android-sdk-8.1.0\AndroidManifest.xml:11:9-32
+18    <uses-feature
+18-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.1.0] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\e02915c7757667d0085fcdb66c9a7d1f\mapbox-android-sdk-8.1.0\AndroidManifest.xml:12:5-14:36
+19        android:name="android.hardware.wifi"
+19-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.1.0] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\e02915c7757667d0085fcdb66c9a7d1f\mapbox-android-sdk-8.1.0\AndroidManifest.xml:13:9-45
+20        android:required="false" />
+20-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.1.0] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\e02915c7757667d0085fcdb66c9a7d1f\mapbox-android-sdk-8.1.0\AndroidManifest.xml:14:9-33
+21
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required for CrashReporterJobIntentService on API levels below 25 -->
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.1.0] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\e02915c7757667d0085fcdb66c9a7d1f\mapbox-android-sdk-8.1.0\AndroidManifest.xml:18:5-76
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.1.0] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\e02915c7757667d0085fcdb66c9a7d1f\mapbox-android-sdk-8.1.0\AndroidManifest.xml:18:22-73
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\16e68d7e0430f559312bbf3756841076\mapbox-android-telemetry-4.5.1\AndroidManifest.xml:12:5-68
+23-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\16e68d7e0430f559312bbf3756841076\mapbox-android-telemetry-4.5.1\AndroidManifest.xml:12:22-65
+24
+25    <application
+25-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:8:5-41:19
+26        android:allowBackup="false"
+26-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:9:9-36
+27        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+27-->[com.android.support:support-compat:28.0.0] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\e44aa6bb9afe9d62300de81ea471b8a5\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher_chotuicon"
+29-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:10:9-53
+30        android:label="@string/final_app_name"
+30-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:11:9-47
+31        android:supportsRtl="true"
+31-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:13:9-35
+32        android:theme="@style/AppTheme.Gray" >
+32-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:14:9-45
+33        <activity android:name="com.mapbox.storelocator.MapActivity" />
+33-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:15:9-16:42
+33-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:16:13-40
+34        <activity android:name="com.mapbox.storelocator.adapter.Slot_selecter" />
+34-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:17:9-18:52
+34-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:18:13-50
+35        <activity android:name="com.mapbox.storelocator.Dashboard" />
+35-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:19:9-20:40
+35-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:20:13-38
+36        <activity android:name="com.mapbox.storelocator.UserdetailsPage" />
+36-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:21:9-22:46
+36-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:22:13-44
+37        <activity android:name="com.mapbox.storelocator.Forcard" >
+37-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:23:9-26:20
+37-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:24:9-32
+38        </activity>
+39        <activity android:name="com.mapbox.storelocator.adapter.Trialpage" />
+39-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:27:9-28:58
+39-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:28:13-46
+40        <activity android:name="com.mapbox.storelocator.MainActivity" >
+40-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:31:9-40:20
+40-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:32:13-41
+41            <intent-filter>
+41-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:33:13-37:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:34:17-69
+42-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:34:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:36:17-77
+44-->C:\Users\kumar\Desktop\Shop-Safe\app\src\main\AndroidManifest.xml:36:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\78fa171c6aeec531ec684954f89fad0e\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+48            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+48-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\78fa171c6aeec531ec684954f89fad0e\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+49            android:exported="false"
+49-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\78fa171c6aeec531ec684954f89fad0e\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+50            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+50-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\78fa171c6aeec531ec684954f89fad0e\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+51
+52        <provider
+52-->[com.google.firebase:firebase-common:16.0.3] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\b77be4922400047b453785fb215c0d1e\firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+53            android:name="com.google.firebase.provider.FirebaseInitProvider"
+53-->[com.google.firebase:firebase-common:16.0.3] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\b77be4922400047b453785fb215c0d1e\firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+54            android:authorities="com.mapbox.storefinder.firebaseinitprovider"
+54-->[com.google.firebase:firebase-common:16.0.3] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\b77be4922400047b453785fb215c0d1e\firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+55            android:exported="false"
+55-->[com.google.firebase:firebase-common:16.0.3] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\b77be4922400047b453785fb215c0d1e\firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+56            android:initOrder="100" />
+56-->[com.google.firebase:firebase-common:16.0.3] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\b77be4922400047b453785fb215c0d1e\firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+57
+58        <meta-data
+58-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\c59ab9e76065973e231eb9dbbc9b92ae\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+59            android:name="com.google.android.gms.version"
+59-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\c59ab9e76065973e231eb9dbbc9b92ae\play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+60            android:value="@integer/google_play_services_version" />
+60-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\c59ab9e76065973e231eb9dbbc9b92ae\play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+61
+62        <provider
+62-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\16e68d7e0430f559312bbf3756841076\mapbox-android-telemetry-4.5.1\AndroidManifest.xml:19:9-23:39
+63            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+63-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\16e68d7e0430f559312bbf3756841076\mapbox-android-telemetry-4.5.1\AndroidManifest.xml:20:13-93
+64            android:authorities="com.mapbox.storefinder.mapboxtelemetryinitprovider"
+64-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\16e68d7e0430f559312bbf3756841076\mapbox-android-telemetry-4.5.1\AndroidManifest.xml:21:13-79
+65            android:exported="false"
+65-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\16e68d7e0430f559312bbf3756841076\mapbox-android-telemetry-4.5.1\AndroidManifest.xml:22:13-37
+66            android:initOrder="100" />
+66-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\16e68d7e0430f559312bbf3756841076\mapbox-android-telemetry-4.5.1\AndroidManifest.xml:23:13-36
+67
+68        <service
+68-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\16e68d7e0430f559312bbf3756841076\mapbox-android-telemetry-4.5.1\AndroidManifest.xml:25:9-27:72
+69            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
+69-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\16e68d7e0430f559312bbf3756841076\mapbox-android-telemetry-4.5.1\AndroidManifest.xml:26:13-92
+70            android:permission="android.permission.BIND_JOB_SERVICE" />
+70-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\kumar\.gradle\caches\transforms-2\files-2.1\16e68d7e0430f559312bbf3756841076\mapbox-android-telemetry-4.5.1\AndroidManifest.xml:27:13-69
+71    </application>
+72
+73</manifest>
